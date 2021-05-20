@@ -1,6 +1,6 @@
 body {
-	background: #EFEFBB;
-	background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+	background: #01bba2;
+	
 	color: white;
 	margin: 0;
 	font-family: rubik;
@@ -18,7 +18,7 @@ h1 {
 
 .pokedex {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	grid-gap: 20px;
 	padding-inline-start: 0;
 }
@@ -36,7 +36,7 @@ h1 {
 	content: "";
   display: block;
   width: 50%;
-  height: 45%;
+  height: 15%;
   border-radius: 100%;
   background-color: #fff;
   opacity: .7;
@@ -51,6 +51,14 @@ h1 {
 
 .fire {
 	background-color: #FDDFDF;
+}
+
+.dark {
+	background-color: #a0a0a0
+}
+
+.ghost {
+	background-color: #dd9ffc
 }
 
 .grass {
@@ -112,7 +120,7 @@ h1 {
 .card-title {
 	text-transform: capitalize;
 	margin-bottom: 0px;
-	font-size: 32px;
+	font-size: 22px;
 	font-weight: normal;
 	position: relative;
 	z-index: 2;
@@ -127,7 +135,7 @@ h1 {
 }
 
 .card-image {
-	height: 180px;
+	height: 120px;
 	position: relative;
 	z-index: 2;
 }
